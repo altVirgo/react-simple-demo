@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body #top-menu {
+  height: 50px;
+  line-height: 50px;
+}
+body #top-menu li {
+  float: left;
+  list-style: none;
+  margin-right: 20px;
+  position: relative;
+}
+body #top-menu li ul {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+body #top-menu li:hover {
+  background-color: red;
+}
+body #top-menu li:hover ul {
+  display: block;
+  background-color: red;
+}
